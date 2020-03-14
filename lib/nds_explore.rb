@@ -1,12 +1,12 @@
 require 'pp'
-require 'pry'
+
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 # Call the method directors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
-binding.pry  # Change the code below to pretty print the nds with pp
+  # Change the code below to pretty print the nds with pp
   pp nds
 end
 
