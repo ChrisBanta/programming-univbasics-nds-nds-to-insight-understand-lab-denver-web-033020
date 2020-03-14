@@ -11,10 +11,9 @@ end
 
 def print_first_directors_movie_titles
   counter = 0
-  movies = directors_database[0][:movies]
-    while counter < movies.counter
+    while counter < directors_database[0][:movies].length
       do
-        puts movies[counter][:title]
-      counter +=1  
+        puts directors_database[0][:movies][counter][:title]
+      counter +=1
       end
 end
